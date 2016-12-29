@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+    
+    <version>1.0</version>
+    <group>Misc</group>
+    
+    <working_flags>
+        <install>true</install>
+        <uninstall>true</uninstall>
+        <enable>true</enable>
+        <disable>true</disable>
+    </working_flags>
+    
+    <template_includes>
+        <html_head>html_head.inc</html_head>
+        <header_bottom>header_bottom.inc</header_bottom>
+        <pre_content>pre_content.inc</pre_content>
+        <content_top>content_top.inc</content_top>
+        <pre_footer>pre_footer.inc</pre_footer>
+    </template_includes>
+    
+</module>

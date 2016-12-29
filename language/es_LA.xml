@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    
+    <display_name>Inyección de banners y HTML</display_name>
+    <icon>fa-code</icon>
+    <description>
+        Añade puntos de inyección de código HTML para banners, scripts y CSS personalizado.
+    </description>
+    
+    <settings_data>
+        
+        <title>Inyección de banners y HTML</title>
+        
+        <specs key="html_head">
+            <title>Encabezado HTML</title>
+            <description><![CDATA[
+                Código a añadir al final del segmento <code>&lt;head&gt;</code>
+                (P.E. etiquetas <code>&lt;script&gt;</code> y <code>&lt;style&gt;</code>)
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="header_bottom">
+            <title>Al final del header</title>
+            <description><![CDATA[
+                Código a añadir al final del encabezado HTML (debajo del menú principal).
+                Ideal para logos o banners de ancho completo.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="pre_content">
+            <title>Pre-contenido</title>
+            <description><![CDATA[
+                Código a añadir dentro de la envoltura de contenido, entre barras laterales.
+                Recomendado para banners responsivos justo antes de los contenidos iniciales.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="content_top">
+            <title>Inicio de contenido</title>
+            <description><![CDATA[
+                Código a añadir entre el encabezado y la envoltura de contenido.
+                Recomendado para banners anchos.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="pre_footer">
+            <title>Pre-pie de página</title>
+            <description><![CDATA[
+                Código a añadir debajo de la envoltura de contenido y antes del pie de página.
+                Recomendado para banners anchos.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+    </settings_data>
+    
+</language>

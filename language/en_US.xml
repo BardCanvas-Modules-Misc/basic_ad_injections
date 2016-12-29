@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    
+    <display_name>Basic ad injections</display_name>
+    <icon>fa-code</icon>
+    <description>
+        Add HTML injection points for banners, scripts and custom CSS.
+    </description>
+    
+    <settings_data>
+        
+        <title>Basic ad injections</title>
+        
+        <specs key="html_head">
+            <title>HTML header</title>
+            <description><![CDATA[
+                Code to add at the bottom of the <code>&lt;head&gt;</code> segment
+                (E.G. <code>&lt;script&gt;</code> and <code>&lt;style&gt;</code> tags)
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="header_bottom">
+            <title>Header bottom</title>
+            <description><![CDATA[
+                Code to add at the bottom the HTML header wrapper.
+                Useful for logos or full width ads.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="pre_content">
+            <title>Pre-content</title>
+            <description><![CDATA[
+                Code to add inside the content wrapper, between sidebars.
+                Useful for responsive ads just before the initial contents.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="content_top">
+            <title>Content Top</title>
+            <description><![CDATA[
+                Code to add after the header and before the content wrapper.
+                Useful for leaderboard ads.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="pre_footer">
+            <title>Pre-footer</title>
+            <description><![CDATA[
+                Code to add after the content wrapper and before the footer.
+                Useful for leaderboard ads.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+    </settings_data>
+    
+</language>
