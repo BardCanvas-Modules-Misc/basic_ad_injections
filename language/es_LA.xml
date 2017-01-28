@@ -56,6 +56,16 @@
             <type>code</type>
         </specs>
         
+        <specs key="pre_eof">
+            <title>Pre-fin de archivo</title>
+            <description><![CDATA[
+                Código a añadir después del pie de página, ya cerrada la envoltura de contenido,
+                justo antes se cerrar el tag <code>&lt;body&gt;</code>
+                Recomendado para contenido escondido y manipulado vía JavaScript
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
     </settings_data>
     
 </language>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <module>
     
-    <version>1.0</version>
+    <version>1.0.1</version>
     <group>Misc</group>
     
     <working_flags>
@@ -17,6 +17,7 @@
         <pre_content>pre_content.inc</pre_content>
         <content_top>content_top.inc</content_top>
         <pre_footer>pre_footer.inc</pre_footer>
+        <pre_eof>pre_eof.inc</pre_eof>
     </template_includes>
     
 </module>
