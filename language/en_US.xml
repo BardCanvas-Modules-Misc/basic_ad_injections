@@ -9,7 +9,7 @@
     
     <settings_data>
         
-        <title>Basic ad injections</title>
+        <title>HTML code and ads injection</title>
         
         <specs key="html_head">
             <title>HTML header</title>
@@ -25,6 +25,16 @@
             <description><![CDATA[
                 Code to add at the bottom the HTML header wrapper.
                 Useful for logos or full width ads.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="home_content" highlight_class="sensitive">
+            <title>Content on the home</title>
+            <description><![CDATA[
+                Code to add <b>at the home page</b>.
+                It is placed at the top of any content rendered by other modules,
+                but only on the home page.
             ]]></description>
             <type>code</type>
         </specs>

@@ -9,7 +9,7 @@
     
     <settings_data>
         
-        <title>Inyección de banners y HTML</title>
+        <title>HTML personalizado y código de banners</title>
         
         <specs key="html_head">
             <title>Encabezado HTML</title>
@@ -25,6 +25,16 @@
             <description><![CDATA[
                 Código a añadir al final del encabezado HTML (debajo del menú principal).
                 Ideal para logos o banners de ancho completo.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="home_content" highlight_class="sensitive">
+            <title>Contenido en página principal</title>
+            <description><![CDATA[
+                Código a añadir <b>en la página principal</b>.
+                Se coloca al inicio de cualquier otro contenido generado por otros módulos,
+                pero sólo en la página principal.
             ]]></description>
             <type>code</type>
         </specs>
