@@ -12,7 +12,7 @@
     </working_flags>
     
     <template_includes>
-        <html_head>html_head.inc</html_head>
+        <html_head priority="900">html_head.inc</html_head>
         <header_bottom>header_bottom.inc</header_bottom>
         <pre_content>pre_content.inc</pre_content>
         <content_top>content_top.inc</content_top>
