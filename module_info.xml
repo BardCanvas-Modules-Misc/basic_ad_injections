@@ -18,7 +18,7 @@
         <content_top>content_top.inc</content_top>
         <pre_footer>pre_footer.inc</pre_footer>
         <pre_eof>pre_eof.inc</pre_eof>
-        <home_content priority="1">home_content.inc</home_content>
+        <home_content priority="100">home_content.inc</home_content>
     </template_includes>
     
 </module>
