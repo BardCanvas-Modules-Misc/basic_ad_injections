@@ -66,6 +66,41 @@
             <type>code</type>
         </specs>
         
+        <specs key="footer_code">
+            <title>Footer contents</title>
+            <description><![CDATA[
+                Contents to set instead the default footer. You can use the next tokens:
+                <ul>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$website_name}">{$website_name} <i class="fa fa-copy"></i></code>
+                        To insert the website name.
+                    </li>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$powered_by}">{$powered_by} <i class="fa fa-copy"></i></code>
+                        To insert "Powered by" legend with the engine release number.
+                    </li>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$query_tracking_info}">{$query_tracking_info} <i class="fa fa-copy"></i></code>
+                        To insert DB query stats if Query Tracking is enabled in the settings.
+                    </li>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$timing_info}">{$timing_info} <i class="fa fa-copy"></i></code>
+                        To insert the time took to render the page if Performance Details are enabled.
+                    </li>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$memory_info}">{$memory_info} <i class="fa fa-copy"></i></code>
+                        To insert the amount of RAM used to render the page if Performance Details are enabled.
+                    </li>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$internals_link}">{$internals_link} <i class="fa fa-copy"></i></code>
+                        To insert a link to show the internals table if Performance Details are enabled and the EMBED_INTERNALS
+                        constant is set to <code>true</code> in the configuration file.
+                    </li>
+                </ul>
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
         <specs key="pre_eof">
             <title>Pre-EOF</title>
             <description><![CDATA[

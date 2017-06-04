@@ -66,6 +66,41 @@
             <type>code</type>
         </specs>
         
+        <specs key="footer_code">
+            <title>Pie de página</title>
+            <description><![CDATA[
+                Contenido a poner en lugar del pie de página predeterminado. Puedes usar los siguientes tokens:
+                <ul>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$website_name}">{$website_name} <i class="fa fa-copy"></i></code>
+                        Para insertar el nombre del website.
+                    </li>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$powered_by}">{$powered_by} <i class="fa fa-copy"></i></code>
+                        Para insertar la leyenda "Powered by" con la versión actual del motor.
+                    </li>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$query_tracking_info}">{$query_tracking_info} <i class="fa fa-copy"></i></code>
+                        Para insertar estadísticas de uso de consultas a la base de datos si el Rastreo de base de datos está activado en la configuración.
+                    </li>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$timing_info}">{$timing_info} <i class="fa fa-copy"></i></code>
+                        Para insertar el tiempo consumido en construir la página si el muestreo de detalles de rendimiento está habilitado en la configuración.
+                    </li>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$memory_info}">{$memory_info} <i class="fa fa-copy"></i></code>
+                        Para insertar la cantidad de memoria RAM usada en construir la página si el muestreo de detalles de rendimiento está habilitado en la configuración.
+                    </li>
+                    <li>
+                        <code class="clipboard-copy pseudo_link" data-clipboard-text="{$internals_link}">{$internals_link} <i class="fa fa-copy"></i></code>
+                        Para insertar un vínculo para mostrar la tabla de detalles internos si el muestreo de detalles de rendimiento está habilitado en la configuración
+                        y la constante EMBED_INTERNALS está puesta a <code>true</code> en el archivo de configuración.
+                    </li>
+                </ul>
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
         <specs key="pre_eof">
             <title>Pre-fin de archivo</title>
             <description><![CDATA[
