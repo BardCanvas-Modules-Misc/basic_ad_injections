@@ -1,6 +1,10 @@
 
 # Basic Ad Injections Module Change Log
 
+## [1.1.0] - 2017-06-08
+
+- Added footer customization editor.
+
 ## [1.0.5] - 2017-05-29
 
 - Adjusted priority for come content.
