@@ -9,6 +9,10 @@
 
 global $config;
 
+$config->globals["modules:basic_ad_injections.home_content/prevent_rendering"] = false;
+$this_module->load_extensions("home_content", "pre_rendering");
+if( $config->globals["modules:basic_ad_injections.home_content/prevent_rendering"] ) return;
+
 $key = "modules:basic_ad_injections."
      . str_replace(".inc", "", basename(__FILE__));
 
