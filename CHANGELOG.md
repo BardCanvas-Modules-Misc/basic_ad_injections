@@ -1,6 +1,10 @@
 
 # Basic Ad Injections Module Change Log
 
+## [1.2.1] - 2017-07-11
+
+- Added extension points to allow extenders cancel contents rendering on all injection points.
+
 ## [1.2.0] - 2017-06-26
 
 - Added emoji and hashtag converters to home content and footer.
