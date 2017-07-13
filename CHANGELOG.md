@@ -1,6 +1,10 @@
 
 # Basic Ad Injections Module Change Log
 
+## [1.2.2] - 2017-07-13
+
+- Added check to prevent showing home content beyond the initial page.
+
 ## [1.2.1] - 2017-07-11
 
 - Added extension points to allow extenders cancel contents rendering on all injection points.
