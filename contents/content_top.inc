@@ -13,10 +13,12 @@ $config->globals["modules:basic_ad_injections.content_top/prevent_rendering"] = 
 $this_module->load_extensions("content_top", "pre_rendering");
 if( $config->globals["modules:basic_ad_injections.content_top/prevent_rendering"] ) return;
 
-$key = "modules:basic_ad_injections."
-     . str_replace(".inc", "", basename(__FILE__));
+$key = "modules:basic_ad_injections." . str_replace(".inc", "", basename(__FILE__));
+
+$contents = $settings->get($key);
+if( empty($contents) ) return;
 ?>
 
 <!-- Basic ad injections: content top -->
 
-<?= $settings->get($key) ?>
+<?= $contents ?>

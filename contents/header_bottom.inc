@@ -13,10 +13,12 @@ $config->globals["modules:basic_ad_injections.header_bottom/prevent_rendering"] 
 $this_module->load_extensions("header_bottom", "pre_rendering");
 if( $config->globals["modules:basic_ad_injections.header_bottom/prevent_rendering"] ) return;
 
-$key = "modules:basic_ad_injections."
-     . str_replace(".inc", "", basename(__FILE__));
+$key = "modules:basic_ad_injections." . str_replace(".inc", "", basename(__FILE__));
+
+$contents = $settings->get($key);
+if( empty($contents) ) return;
 ?>
 
 <!-- Basic ad injections: html head -->
 
-<?= $settings->get($key) ?>
+<?= $contents ?>
