@@ -15,10 +15,12 @@ $config->globals["modules:basic_ad_injections.home_content/prevent_rendering"] =
 $this_module->load_extensions("home_content", "pre_rendering");
 if( $config->globals["modules:basic_ad_injections.home_content/prevent_rendering"] ) return;
 
-$key = "modules:basic_ad_injections."
-     . str_replace(".inc", "", basename(__FILE__));
+$key = "modules:basic_ad_injections." . str_replace(".inc", "", basename(__FILE__));
 
 $contents = $settings->get($key);
+if( empty($contents) ) return;
+
+$contents = convert_shortcodes($contents);
 $contents = autolink_hash_tags($contents, "{$config->full_root_path}/tag/");
 $contents = convert_emojis($contents);
 ?>
