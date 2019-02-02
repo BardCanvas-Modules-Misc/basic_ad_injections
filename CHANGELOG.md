@@ -1,6 +1,11 @@
 
 # Basic Ad Injections Module Change Log
 
+## [1.2.3] - 2019-02-01
+
+- Tuned contents rendering
+- Added shortcode execution on `home_content` and `footer_top` cases.
+
 ## [1.2.2] - 2017-07-13
 
 - Added check to prevent showing home content beyond the initial page.
