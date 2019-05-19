@@ -20,6 +20,15 @@
             <type>code</type>
         </specs>
         
+        <specs key="header_top">
+            <title>Sobre el header</title>
+            <description><![CDATA[
+                Código a añadir antes del encabezado HTML (debajo del menú principal).
+                Ideal para logos o banners de ancho completo.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
         <specs key="header_bottom">
             <title>Al final del header</title>
             <description><![CDATA[

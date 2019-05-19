@@ -20,6 +20,15 @@
             <type>code</type>
         </specs>
         
+        <specs key="header_top">
+            <title>Header top</title>
+            <description><![CDATA[
+                Code to add at the top the HTML header wrapper.
+                Useful for logos or full width ads.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
         <specs key="header_bottom">
             <title>Header bottom</title>
             <description><![CDATA[
