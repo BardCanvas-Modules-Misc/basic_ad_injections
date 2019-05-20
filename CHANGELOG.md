@@ -1,6 +1,10 @@
 
 # Basic Ad Injections Module Change Log
 
+## [1.3.0] - 2019-05-20
+
+- Added markup injection point above the header.
+
 ## [1.2.3] - 2019-02-01
 
 - Tuned contents rendering
