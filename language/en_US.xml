@@ -57,6 +57,14 @@
             <type>code</type>
         </specs>
         
+        <specs key="pre_content_exclussions" highlight_class="sensitive">
+            <title>Pre-content exclussions</title>
+            <description><![CDATA[
+                Type a comma-separated list of page tags where the markup should be excluded.
+            ]]></description>
+            <type>textarea</type>
+        </specs>
+        
         <specs key="content_top">
             <title>Content Top</title>
             <description><![CDATA[
@@ -66,6 +74,14 @@
             <type>code</type>
         </specs>
         
+        <specs key="content_top_exclussions" highlight_class="sensitive">
+            <title>Content top exclussions</title>
+            <description><![CDATA[
+                Type a comma-separated list of page tags where the markup should be excluded.
+            ]]></description>
+            <type>textarea</type>
+        </specs>
+        
         <specs key="pre_footer">
             <title>Pre-footer</title>
             <description><![CDATA[
@@ -73,6 +89,14 @@
                 Useful for leaderboard ads.
             ]]></description>
             <type>code</type>
+        </specs>
+        
+        <specs key="pre_footer_exclussions" highlight_class="sensitive">
+            <title>Pre-footer exclussions</title>
+            <description><![CDATA[
+                Type a comma-separated list of page tags where the markup should be excluded.
+            ]]></description>
+            <type>textarea</type>
         </specs>
         
         <specs key="footer_code">
