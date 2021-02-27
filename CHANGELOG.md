@@ -1,6 +1,10 @@
 
 # Basic Ad Injections Module Change Log
 
+## [1.3.1] - 2021-02-27
+
+- Added page tag exclussions to pre-content, content-top and pre-footer.
+
 ## [1.3.0] - 2019-05-20
 
 - Added markup injection point above the header.
