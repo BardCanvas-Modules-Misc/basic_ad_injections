@@ -32,7 +32,7 @@
 
 ## [1.0.5] - 2017-05-29
 
-- Adjusted priority for come content.
+- Adjusted priority for home content.
 
 ## [1.0.4] - 2017-04-22
 
