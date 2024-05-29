@@ -144,6 +144,15 @@
             <type>code</type>
         </specs>
         
+        <specs key="in_content">
+            <title>Manual in-content ads</title>
+            <description><![CDATA[
+                Markup for manually adding to post or page contents using the next shortcode:
+                <code>[in_content_ad]</code>
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
     </settings_data>
     
 </language>

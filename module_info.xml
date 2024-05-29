@@ -22,5 +22,12 @@
         <footer_top>footer_top.inc</footer_top>
         <home_content priority="100">home_content.inc</home_content>
     </template_includes>
+
+    <shortcode_handlers>
+        <handler name="in_content_ad">
+            <syntax>[in_content_ad]</syntax>
+            <file>shortcodes/in_content_ad.inc</file>
+        </handler>
+    </shortcode_handlers>
     
 </module>

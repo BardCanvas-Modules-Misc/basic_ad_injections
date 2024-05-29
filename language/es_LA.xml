@@ -144,6 +144,15 @@
             <type>code</type>
         </specs>
         
+        <specs key="in_content">
+            <title>Anuncios manuales dentro de contenido</title>
+            <description><![CDATA[
+                Código a insertar manualmente en contenido de entradas o páginas a través del siguiente shortcode:
+                <code>[in_content_ad]</code>
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
     </settings_data>
     
 </language>
