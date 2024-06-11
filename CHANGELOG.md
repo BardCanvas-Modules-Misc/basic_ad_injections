@@ -1,6 +1,10 @@
 
 # Basic Ad Injections Module Change Log
 
+## [1.3.2] - 2024-06-11
+
+- Added support for manual in-content ads.
+
 ## [1.3.1] - 2021-02-27
 
 - Added page tag exclussions to pre-content, content-top and pre-footer.
